@@ -7,7 +7,7 @@ function Hero() {
     return (
         <section id="hero" className="hero-container">
             <div className="hero-content">
-                <ShinyText text="My Name is Satyam Mayengbam" disabled={false} speed={5} className='custom-class' />
+                <ShinyText text="My Name is Satyam Mayengbam" disabled={false} speed={6} className='custom-class' />
                 <ShinyText text="ꯈꯨꯔꯨꯝꯖꯔꯤ" disabled={false} speed={3} className='custom-class' />
             </div>
             <div className="hero-footer">
