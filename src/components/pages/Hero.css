@@ -1,0 +1,69 @@
+/* src/components/Hero.css */
+
+/* Existing styles for text color */
+.custom-class {
+  color: rgba(230, 212, 212, 0.308);
+}
+
+/* Styles for the hero container to enable absolute positioning of the footer */
+.hero-container {
+  position: relative; /* Add this if it's not already there */
+  min-height: 100vh; /* Ensure the hero section takes at least the full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Adjust as needed to center content vertically */
+  align-items: center; /* Adjust as needed to center content horizontally */
+  /* Add other background styles if you have them */
+}
+
+.hero-content {
+  /* Existing styles for hero content */
+  text-align: center; /* Example: center the shiny text */
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;  /* Example: adjust font size */
+}
+
+/* Styles for the hero footer */
+.hero-footer {
+  position: absolute;
+  bottom: 100px; /* Adjust the distance from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  color: white; /* Text and arrow color */
+  text-align: center;
+}
+
+.explore-text {
+  font-size: 1rem; /* Adjust font size */
+  margin-bottom: 5px; /* Space between text and arrow */
+}
+
+.scroll-down-arrow {
+  padding-left: 20PX;
+  font-size: 1.5rem; /* Adjust arrow size */
+  /* You can add more styling to make it look like an arrow */
+  /* border: 1px solid white; Example: Add a border */
+  /* padding: 5px; */
+  /* border-radius: 50%; */
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .explore-text {
+    font-size: 0.8rem;
+    padding-bottom: 20%; /* Smaller font size on mobile */
+  }
+
+  .scroll-down-arrow {
+    font-size: 1.2rem;
+    padding-bottom: 20%; /* Smaller arrow on mobile */
+  }
+
+  .hero-footer {
+    bottom: 15px; /* Adjust bottom spacing on mobile */
+  }
+}
