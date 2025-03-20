@@ -2,6 +2,7 @@
 import React from 'react';
 import Hero from './components/pages/Hero';
 import About from './components/pages/About'; // Import the About component
+import Achievement from './components/pages/Achievement'; // Import the Achievement component
 //import Projects from './components/Projects';
 //import Certificates from './components/Certificates';
 //import Skills from './components/Skills';
@@ -10,12 +11,13 @@ import About from './components/pages/About'; // Import the About component
 import './App.css';
 
 function App() {
-  return (
-    <div>
-      <Hero />
-      <About />
-    </div>
-  );
+ return (
+  <div>
+   <Hero />
+   <About />
+    <Achievement/>
+  </div>
+ );
 }
 
 export default App;

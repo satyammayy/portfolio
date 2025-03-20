@@ -11,10 +11,10 @@ function About() {
         <ScrollReveal
   baseOpacity={1}
   enableBlur={true}
-  baseRotation={5}
+  baseRotation={8}
   blurStrength={10}
 >
-I am from Manipur and love to code. 
+I am from Manipur. 
 My ultimate goal is to attain a professional career in the fields of cyber security and software development,
 with a focus on practical issues that are significant in people's lives. I am interested in how technology can enhance daily life. 
 I have keen interest in acquiring knowledge and is willing to work on issues that have a positive impact on society.
